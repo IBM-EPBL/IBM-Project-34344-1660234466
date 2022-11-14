@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Login Page</title>
+</head>
+<body>
+	  <div id="topbar">Vritual Eye
+	  	<ul>
+   			<li><a href="Home.html">Home</a></li>
+   			<li><a href="Login.html">Login</a></li>
+   			<li><a href="Register.html">Register</a></li>
+   		</ul>
+	  </div>
+<div class="login-box">
+			 
+<h2>LOGIN</h2>
+ <form>
+ 	<div class="user-box">
+ 		<input type="text" name="" required="">
+ 		<label>Enter Register Email Id</label>
+ 	</div>
+
+ 	
+
+ 	<div class="user-box">
+ 		<input type="password" name="" required="">
+ 		<label>Enter password</label>
+ 	</div>
+
+ 	<div class="button-form">
+ 		<a id="Login" href="#">Login</a>
+ 		
+ 			
+ 		</div>
+ 	</div>
+</div>
+</form>
+<style >
+	
+#topbar
+{
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    text-decoration-color: white;
+    text-size: 20px;
+
+color: white;
+}
+
+#topbar ul
+{ float: right; 
+margin-top: 8px;}
+#topbar ul li
+{display: inline;
+margin-right: 20px;}
+#topbar ul li a
+{ color:white;
+text-decoration: none; 
+font-size: 18px;}
+
+.{
+    box-sizing: border-box;
+}
+
+body{
+    background: floralwhite;
+}
+
+.login-box{
+
+    position: absolute;
+    color: black;
+    top: 50%;
+    left: 50%;
+    height: 300px;
+    width: 500px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: #CCCCFF;
+    box-shadow: 0 15px 25px rgba(143, 124, 236, 0.7);
+    border-radius: 10px;
+
+}
+.login-box img
+{ 
+
+    width: 200px;
+    height: 200px;
+margin-left: 150px;
+border-radius: 100px;
+margin-bottom: 25px;
+
+}
+
+.login-box h2{
+    margin: 0 0 30px;
+    padding: 0;
+    color: black;
+    text-align: center;
+}
+
+.login-box .user-box input{
+    position: relative;
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: black;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    outline-color: #0000ff;
+    background: transparent;
+}
+
+.login-box .user-box label{
+    position: relative;
+    left: 0;
+    top: -60px;
+    padding: 10px;
+    font-size: 16px;
+    color: black;
+    pointer-events: none;
+    transition: .5s;
+
+}
+
+.login-box .user-box input:focus~label,
+.login-box .user-box input:valid~label {
+    top: -85px;
+    left: 0;
+    color: #BE7CEC;
+    font-size: 12px;
+
+}
+
+#Login{
+    padding: 10px 20px;
+    color: #CBBDDB;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    letter-spacing: 5px;
+    border: 1px solid #BF7CEC;
+    border-radius: 15px;
+    margin: auto;
+}
+
+#Login:hover{
+    background: #BF7CEC;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #BF7CEC 0 0 50px #BF7CEC, 0 0 100px #BF7CEC ;
+}
+
+.button-form{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+ }
+
+
+#Login{
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+    margin: auto;
+    width: 60%;
+    text-align: center;
+}
+
+#Login a{
+    margin: auto;
+    color: black;
+    text-decoration: none;
+
+}
+
+</style>
+</body>
+</html>
